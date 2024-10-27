@@ -1,0 +1,29 @@
+.scroll{
+    text-align:center;
+    margin:10px;
+}
+a{
+    text-decoration:none;
+    font-size:20px;
+    color:white;
+    border:black 2px solid;
+    padding:5px;
+    border-radius:15px;
+    background-color:rgb(146, 147, 149);
+}
+img{
+    width:100vw;
+}
+.active{
+    background-color:rgb(0, 102, 255);
+}
+.scroll :hover:not(.active){
+    background-color:rgba(146, 147, 149, 0.397);
+}
+.active:hover{
+    background-color:rgba(0, 102, 255, 0.475);
+}
+p{
+    font-size:40px;
+    text-align:center;
+}
